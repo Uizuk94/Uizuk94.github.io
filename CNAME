@@ -1,1 +1,5 @@
 uizuk.radom.pl
+echo "www.uizuk.radom.pl" > CNAME
+git add -A
+git commit -m “Added CNAME file.”
+git push origin master
